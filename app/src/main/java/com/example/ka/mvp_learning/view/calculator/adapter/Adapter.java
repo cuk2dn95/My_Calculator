@@ -17,8 +17,25 @@ import java.util.ArrayList;
 public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
 
 
-    ArrayList<String> list = new ArrayList<>();
+    ArrayList<String> list;
 
+
+    public Adapter() {
+
+        list = new ArrayList<>();
+
+    }
+
+    public String getItem(int position)
+    {
+        return list.get(position);
+    }
+
+    public void clear()
+    {
+        list.clear();
+        notifyDataSetChanged();
+    }
 
     public void addOperator(String operator)
     {

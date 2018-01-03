@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    android:columnCount="3"
+    android:rowCount="3"
+    >
+
+    <RelativeLayout
+        style="@style/icon_box"
+        >
+    <ImageView
+        style="@style/icon"
+        android:src="@drawable/ic_time"
+        android:id="@+id/ic_time"
+        />
+    <TextView
+        style="@style/icon_text"
+        android:text="Text"
+        android:layout_below="@id/ic_time"
+        />
+    </RelativeLayout>
+    <RelativeLayout
+        style="@style/icon_box"
+        >
+    <ImageView
+        style="@style/icon"
+        android:src="@drawable/ic_weight"
+        android:id="@+id/ic_weight"
+        />
+    <TextView
+       style="@style/icon_text"
+        android:text="weight"
+        android:layout_below="@id/ic_weight"
+        />
+    </RelativeLayout>
+    <RelativeLayout
+        style="@style/icon_box"
+        >
+
+
+    </RelativeLayout>  <RelativeLayout
+    style="@style/icon_box"
+    >
+
+
+</RelativeLayout>
+    <RelativeLayout
+        style="@style/icon_box"
+        >
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        style="@style/icon_box"
+        >
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        style="@style/icon_box"
+        >
+
+
+    </RelativeLayout>  <RelativeLayout
+    style="@style/icon_box"
+    >
+
+
+</RelativeLayout>  <RelativeLayout
+    style="@style/icon_box"
+    >
+
+
+</RelativeLayout>
+
+
+
+
+
+</GridLayout>

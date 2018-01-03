@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="3"
+    android:rowCount="3"
+    android:background="@android:color/darker_gray"
+
+    >
+<RelativeLayout
+    style="@style/icon_box"
+
+    >
+
+    <ImageView
+       style="@style/icon"
+        android:src="@drawable/ic_euro"
+        android:id="@+id/ic_euro"
+
+       />
+    <TextView
+
+        android:layout_below="@id/ic_euro"
+        android:text="Currency"
+        style="@style/icon_text"
+        />
+</RelativeLayout>
+    <RelativeLayout
+        style="@style/icon_box"
+
+        >
+    <ImageView
+        android:src="@drawable/ic_account"
+        style="@style/icon"
+        android:id="@+id/ic_balance"
+        />
+        <TextView
+           style="@style/icon_text"
+            android:text="Mortgage"
+            android:layout_below="@id/ic_balance"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        style="@style/icon_box"
+        >
+        <ImageView
+            style="@style/icon"
+            android:src="@drawable/ic_math"
+            android:id="@+id/ic_math"
+            />
+        <TextView
+            style="@style/icon_text"
+            android:text="Caculator"
+            android:layout_below="@id/ic_math"
+            />
+
+    </RelativeLayout>
+    <RelativeLayout
+        style="@style/icon_box"
+        >
+        <ImageView
+            android:id="@+id/ic_scientific"
+           style="@style/icon"
+            android:src="@drawable/ic_scientific"/>
+        <TextView
+            style="@style/icon_text"
+            android:text="Scientific"
+            android:layout_below="@id/ic_scientific"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        style="@style/icon_box"
+        >
+
+        <TextView
+            style="@style/icon_text"
+            android:text="Length"
+            android:layout_below="@id/ic_ruler"
+            />
+
+        <ImageView
+            style="@style/icon"
+            android:src="@drawable/ic_ruler"
+            android:id="@+id/ic_ruler"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <RelativeLayout
+        style="@style/icon_box"
+        >
+        <ImageView
+            style="@style/icon"
+            android:src="@drawable/ic_area"
+            android:id="@+id/ic_area"
+            />
+        <TextView
+           style="@style/icon_text"
+            android:text="area"
+            android:layout_below="@id/ic_area"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        style="@style/icon_box"
+        >
+    <ImageView
+       style="@style/icon"
+        android:src="@drawable/ic_volume"
+        android:id="@+id/ic_volume"
+        />
+    <TextView
+        style="@style/icon_text"
+        android:text="Volume"
+        android:layout_below="@id/ic_volume"/>
+    </RelativeLayout>
+    <RelativeLayout
+        style="@style/icon_box"
+        >
+    <ImageView
+       style="@style/icon"
+        android:src="@drawable/ic_thermometer"
+        android:id="@+id/ic_thermometer"
+        />
+    <TextView
+       style="@style/icon_text"
+        android:text="Temperature"
+        android:layout_below="@id/ic_thermometer"
+        />
+    </RelativeLayout>
+    <RelativeLayout
+        style="@style/icon_box"
+        >
+    <ImageView
+        android:src="@drawable/ic_speed"
+        style="@style/icon"
+        android:id="@+id/ic_speed"
+        />
+    <TextView
+        style="@style/icon_text"
+        android:text="Speed"
+        android:layout_below="@id/ic_speed"
+         />
+    </RelativeLayout>
+
+
+</GridLayout>

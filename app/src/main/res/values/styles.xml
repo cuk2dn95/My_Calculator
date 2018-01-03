@@ -18,5 +18,27 @@
         <item name="android:layout_columnWeight">1</item>
 
     </style>
+    
+    
+    <style name="icon_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textAppearance">@style/Base.TextAppearance.AppCompat.Large</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+    <style name="icon">
+        <item name="android:layout_height">@dimen/icon_height</item>
+        <item name="android:layout_width">@dimen/icon_width</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+
+    <style name="icon_box">
+        <item name="android:layout_height">190dp</item>
+        <item name="android:layout_width">130dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:background">@drawable/icon</item>
+    </style>
 
 </resources>
